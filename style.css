@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {  font-family: "Alata", sans-serif !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    letter-spacing: 0.3px !important;
+    color: #0d5aa3 !important;
+}
+
+.logo {
+  width: 243px;
+  height: auto;
+}
+
+.s-logo {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.nav-btns {
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(233, 91, 41) !important;
+  border-color: rgb(233, 91, 41) !important;
+  color: white !important;
+}
+
+.nav-font {
+  font-family: "Alata", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  letter-spacing: 0.3px !important;
+  color: #0d5aa3 !important;
+}
+
+.under-nav {
+  background: rgb(104, 58, 150);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(104, 58, 150, 1) 68%,
+    rgba(237, 74, 35, 1) 79%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(104, 58, 150, 1) 68%,
+    rgba(237, 74, 35, 1) 79%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(104, 58, 150, 1) 68%,
+    rgba(237, 74, 35, 1) 79%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#683a96",endColorstr="#ed4a23",GradientType=1);
+  padding: 0 !important;
+}
+
+.under-nav .form-control {
+  width: 100%;
+  padding: 16px; /* Inputların iç dolgusunu ayarlamak */
+  height: auto;
+}
+
+.under-nav .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 74px; /* Butonun inputlar kadar yüksek olmasını sağlamak */
+  width: 180px; /* Tam genişlik */
+  padding: 24px !important;
+}
+
+.under-nav .btn i {
+  font-size: 24px; /* Buton içindeki ikonun boyutunu artırmak */
+}
+
+.orange-circle {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: #ed4a23;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50%;
+  z-index: 1;
+}
+
+.carousel-inner {
+  position: relative;
+  border-radius: 10px;
+  z-index: 3;
+}
+
+.under-nav-conatainer {
+  z-index: 4;
+}
+
+.portal-alt {
+    font-weight: normal;
+font-size: 22px;
+color: #555550;
+}
+
+.rakamlar {
+    background: linear-gradient(90deg, #772fa7, rgba(100, 38, 140, .93040966) 36%, #7a489a 69%, #8d3dc2 96%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rakamlar-header {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    color: #fff;;
+}
+
+.rakamlar-p {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    color: #fff;
+}

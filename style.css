@@ -6,11 +6,12 @@
   box-sizing: border-box;
 }
 
-body {  font-family: "Alata", sans-serif !important;
-    font-size: 18px !important;
-    font-weight: bold !important;
-    letter-spacing: 0.3px !important;
-    color: #0d5aa3 !important;
+body {
+  font-family: "Alata", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  letter-spacing: 0.3px !important;
+  color: #0d5aa3 !important;
 }
 
 .logo {
@@ -110,29 +111,73 @@ body {  font-family: "Alata", sans-serif !important;
 }
 
 .portal-alt {
-    font-weight: normal;
-font-size: 22px;
-color: #555550;
+  font-weight: normal;
+  font-size: 22px;
+  color: #555550;
 }
 
 .rakamlar {
-    background: linear-gradient(90deg, #772fa7, rgba(100, 38, 140, .93040966) 36%, #7a489a 69%, #8d3dc2 96%);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: linear-gradient(
+    90deg,
+    #772fa7,
+    rgba(100, 38, 140, 0.93040966) 36%,
+    #7a489a 69%,
+    #8d3dc2 96%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: #ed4a23 3px solid;
+  border-bottom: #f87656 3px solid;
 }
 
 .rakamlar-header {
-    font-size: 38px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: normal;
-    color: #fff;;
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  color: #fff;
 }
 
 .rakamlar-p {
-    font-size: 22px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  color: #fff;
+}
+
+.footer {
+  background: rgb(7, 11, 117);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(7, 11, 117, 1) 42%,
+    rgba(11, 87, 171, 0.9948179955575981) 81%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(7, 11, 117, 1) 42%,
+    rgba(11, 87, 171, 0.9948179955575981) 81%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(7, 11, 117, 1) 42%,
+    rgba(11, 87, 171, 0.9948179955575981) 81%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#070b75",endColorstr="#0b57ab",GradientType=1);
+}
+
+.ibb-footer {
+  padding: 0 !important;
+}
+
+.logop p {
+  color: #fff !important;
+}
+
+.nav-btn-span {
+  margin: 0 !important;
+}
+
+.lastest-logo {
+  padding: 0 !important;
 }

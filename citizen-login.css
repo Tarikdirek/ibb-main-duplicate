@@ -1,0 +1,60 @@
+
+
+.body{
+
+}
+
+.first-col-aside {
+  padding: 0 !important;
+  background-image: url("https://bio.ibb.istanbul/static/media/login_fair_img.5b458461.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+
+.up-nav {
+  background: #007aff !important;
+  height: 100px !important;
+}
+
+.login-logo {
+  width: 216px;
+}
+
+
+
+.giris-p {
+  color: #f3590f !important;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-icon {
+  color: #f3590f;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.under-uye {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: #f3590f 3px solid;
+  line-height: 1.23;
+}
+
+.under{
+  padding: 0 !important;
+  margin: 0 !important;
+  
+}
+
+.login-btn {
+  background-color: #0358ac !important;
+}
+
+.ist-log-btn {
+  background-color: #cb0a5f !important;
+}

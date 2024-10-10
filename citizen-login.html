@@ -23,51 +23,102 @@
   <body>
     <div class="container-fluid page">
       <div class="row">
-        <aside class="col-xl-4 col-0 d-none d-xl-block first-col-aside vh-100">
-          
-        </aside>
-        <section class="col-xl-8 col-lg-8 col-12 second-col">
+        <aside
+          class="col-xl-4 col-0 d-none d-xl-block first-col-aside vh-100"
+        ></aside>
+        <section class="col-xl-8 col-lg-12 col-12 second-col">
           <div class="row d-xl-none up-nav">
             <div class="col"></div>
           </div>
           <div class="row">
-            <div class="col d-xl-flex justify-content-between align-items-center m-5 ">
+            <div
+              class="col d-xl-flex d-flex flex-lg-row flex-column  justify-content-between align-lg-items-center m-5"
+            >
               <img
                 src="https://bio.ibb.istanbul/static/media/bolgesel-isdihtam-ofisi-logo-2x.4782d248.png"
-                class="login-logo"
+                class="login-logo  order-2 order-xl-1 "
               />
-              <div class="d-flex align-items-center">
-                <i class="bi bi-arrow-left back-icon"></i>
-              <p class="fs-6 mt-3 giris-p">Giriş Sayfasına Geri Dön</p>
-              </div>          
+              <div class="d-flex align-items-center order-1 order-xl-2 ">
+                <i class="bi bi-arrow-left back-icon "></i>
+                <p class="fs-6 mt-3 giris-p ">Giriş Sayfasına Geri Dön</p>
+              </div>
             </div>
           </div>
-          <div class="row ">
-            <div class="col ms-5">
-              <p>Üye Girişi</p>
-              <form action="" class="w-75">
-                <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">*TC Kimlik No:</label>
+          <div class="row pe-5">
+            <div
+              class="col ms-5 d-flex flex-column justify-content-start align-items-between"
+            >
+              <p class="fs-4 fw-bold member-login-text">Üye Girişi</p>
+              <form action="" class="">
+                <div class="inputs d-flex flex-column align-items-between">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">*TC Kimlik No:</label>
+                  </div>
+                  <div class="form-floating">
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="floatingPassword"
+                      placeholder="Password"
+                    />
+                    <label for="floatingPassword">*Şifre:</label>
+
+                    <div class="form-check d-flex justify-content-between my-3">
+                      <div class="check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckDefault"
+                        />
+                        <label
+                          class="form-check-label fw-bold text-secondary"
+                          for="flexCheckDefault"
+                        >
+                          Beni bu bilgisayarda hatırla
+                        </label>
+                      </div>
+
+                      <a class="forget-pass" href="">Şifremi Unuttum</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="form-floating">
-                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                  <label for="floatingPassword">Şifre:</label>
+
+                <div class="d-grid gap-2">
+                  <button
+                    class="btn btn-primary login-btn fw-bold"
+                    type="submit"
+                  >
+                    GİRİŞ YAP
+                  </button>
+                  <button class="btn btn text-white ist-log-btn" type="button">
+                    <img
+                      src="https://bio.ibb.istanbul/static/media/seninLogo.6057a47a.svg"
+                      class="me-2"
+                      alt=""
+                    />
+                    İSTANBUL SENİN'LE GİRİŞ
+                  </button>
                 </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault">
-                    Beni bu bilgisayarda hatırla
-                  </label>
-                  <a href="">Şifremi Unuttum</a>
-                  
+                <div class="foot-sec mt-5">
+                  <p class="sign-up-text fw-bold text-secondary">
+                    Üyeliğiniz yok mu ? Hemen
+                    <a href="#" class="sign-up-link">Kayıt Ol</a>
+                  </p>
+                  <a href="#" class="employee-text text-nowrap"
+                    >İşveren Kayıt Ve İlan Oluşturma Klavuzu</a
+                  >
                 </div>
-                <input type="submit" class="btn btn-primary" value="GİRİŞ YAP"/>
-                  <P>Üyeliğiniz yok mu ? Hemen <a href="#">Kayıt Ol</a></P>
-                  <a href="#">İşveren Kayıt Ve İlan Oluşturma Klavuzu</a>
               </form>
             </div>
           </div>
+
         </section>
       </div>
     </div>

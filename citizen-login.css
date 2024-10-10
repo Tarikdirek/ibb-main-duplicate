@@ -1,9 +1,5 @@
 
 
-.body{
-
-}
-
 .first-col-aside {
   padding: 0 !important;
   background-image: url("https://bio.ibb.istanbul/static/media/login_fair_img.5b458461.jpg");
@@ -14,16 +10,27 @@
 }
 
 
-.up-nav {
+.up-nav   {
   background: #007aff !important;
   height: 100px !important;
 }
-
+.down-nav{
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  background: #007aff !important;
+  height: 100px !important;
+}
 .login-logo {
   width: 216px;
 }
 
-
+.member-login-text {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #f3590f !important;
+  text-underline-offset: 10px !important;
+}
 
 .giris-p {
   color: #f3590f !important;
@@ -57,4 +64,35 @@
 
 .ist-log-btn {
   background-color: #cb0a5f !important;
+}
+.form-check-label {
+  font-size:  14px !important;
+}
+
+.form-control {
+  display:inline-block !important;
+}
+
+.forget-pass {
+  font-size:  14px !important;
+  text-decoration: none !important;
+  color: #0358ac !important;
+  font-weight: bold !important;
+}
+
+.sign-up-link {
+  font-size:  14px !important;
+  color: #f3590f!important;
+  font-weight: bold !important;
+}
+
+.sign-up-text {
+  font-size:  14px !important;
+}
+
+.employee-text {
+  font-size:  14px !important;
+  text-decoration: none !important;
+  color: #f3590d !important;
+  font-weight: bold !important;
 }
